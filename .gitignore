@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -13,9 +12,12 @@ env/
 .pytest_cache/
 
 # Playwright
+node_modules/
 test-results/
 playwright-report/
 blob-report/
+playwright/.cache/
+playwright/.auth/
 
 # VS Code
 .vscode/
@@ -27,13 +29,3 @@ Thumbs.db
 # Python coverage
 .coverage
 htmlcov/
-=======
-
-# Playwright
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
->>>>>>> 78f6944 (Add Playwright UI automation tests)
